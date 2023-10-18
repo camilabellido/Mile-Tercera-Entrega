@@ -1,3 +1,7 @@
+.color-fondo {
+  background-color: #ffffff;
+}
+
 :root {
   --theme-color:#dab200;
   --secondary-color:#CE967B;
@@ -2294,7 +2298,6 @@ body::after {
   border-radius: 4px;
   text-align: center;
 }
-
 .box-wrap:hover {
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
 }
@@ -2314,7 +2317,6 @@ body::after {
   display: block;
   color: var(--title-color);
 }
-
 .box-wrap h4 a:hover {
   color: var(--opposite-color);
 }
@@ -3082,7 +3084,6 @@ body::after {
     padding-top: 60px;
   }
 }
-/* ojo */
 .travel {
   padding: 100px 0;
   background-color: #ffffff;
@@ -3213,20 +3214,21 @@ body::after {
   width: 50%;
 }
 
+/*
 h2 {
-  font-size: 2.5rem;
-  line-height: 70px;
-  color: #323337;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+    font-size: 2.5rem;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 p {
-  font-size: 16px;
-  color: #414247;
-  margin: 25px 0 45px 0;
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
 }
-
+*/
 /* empieza blog*/
 .blog {
   padding: 100px 0;
@@ -3265,7 +3267,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .grid-item:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
